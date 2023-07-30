@@ -2,6 +2,14 @@
 # Terraform configuration
 # ------------------------------
 terraform {
+    backend "remote" {
+    organization = "a_masaki"
+
+    workspaces {
+      name = "learn-terraform-github-actions"
+    }
+  }
+
   required_version = ">=0.13"
   required_providers {
     aws = {
