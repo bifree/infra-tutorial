@@ -37,9 +37,3 @@ variable "project" {
 variable "environment" {
   type = string
 }
-
-variable "aws_access_key_id" {
-}
-
-variable "aws_secrets_access_key" {
-}
