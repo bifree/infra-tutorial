@@ -5,6 +5,7 @@
 # Local .terraform directories
 **/.git/*
 **/.terraform/*
+**/.DS_store/*
 
 # .tfstate files
 *.tfstate
